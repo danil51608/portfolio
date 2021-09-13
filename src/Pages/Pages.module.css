@@ -1,0 +1,133 @@
+.header{
+    width: 100%;
+    max-width: 1400px;
+    padding: 90px 50px;
+    margin: 0 auto;
+}
+
+.header > h1{
+    padding: 50px 0 25px 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header > p{
+    color: #73808D;
+    font-size: 32px;
+}
+
+.appLinks > a {
+    color: #000;
+    font-size: 20px;
+}
+
+.appLinks > a:hover {
+    color: #73808D;
+    
+}
+.back > a{
+    color: #73808D;
+}
+.back > a:visited{
+    color: #73808D;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.back:hover a{
+    color: #000;
+}
+
+.arrow{
+    width: 20px;
+}
+
+.container{
+    padding: 100px 0;
+}
+
+.imgContainer{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.imgContainer > img{
+    width: 100%;
+    
+}
+
+.text{
+    width: 100%;
+    max-width: 1400px;
+    padding: 50px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #73808D;
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 1440px){
+    .wrapper{
+        max-width: 1100px;
+    }
+    .imgContainer{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1024px){
+    .wrapper{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px){
+    .wrapper{
+        max-width: 600px;
+        padding: 50px 30px 0 30px;
+    }
+    .imgContainer{
+        width: 80vw;
+    }
+    
+    .header > p, .text{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .wrapper{
+        max-width: 400px;
+        padding: 50px 0;
+    }
+    .imgContainer{
+        width: 100vw;
+    }
+    
+    .header{
+        padding: 20px;
+    }
+
+    .text{
+        padding: 30px;
+        padding-bottom: 10px;
+    }
+
+    .header > p, .text{
+        font-size: 20px;
+    }
+
+    .container{
+        padding: 10px 0;
+    }
+}

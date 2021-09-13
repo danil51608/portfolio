@@ -1,0 +1,42 @@
+.header {
+  color: #101214;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.header > h1,
+span {
+  font-size: 56px;
+}
+
+@media (max-width: 1440px) {
+  .header > h1,
+  span {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header > h1,
+  span {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header > h1,
+  span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    padding: 30px 10px;
+    width: 100vw;
+  }
+  .header > h1,
+  span {
+    font-size: 20px;
+  }
+}
